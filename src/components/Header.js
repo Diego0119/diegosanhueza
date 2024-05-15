@@ -14,11 +14,11 @@ function Header() {
 
     return (
         <header>
-            <div className='flex flex-row justify-between p-8'>
+            <div className='flex flex-row lg:justify-between p-8'>
                 <p className='text-white items-center text-2xl font-bold'>DiegoDev</p>
-                <ul className="justify-end m-8 text-white mt-0 gap-x-8 flex flex-row cursor-pointer">
+                <ul className="justify-end m-8 text-white mt-0 lg:gap-x-8 gap-x-4 flex flex-row cursor-pointer">
                     <li onClick={() => handleSection('home')}>Home</li>
-                    <li onClick={() => handleSection('about-me')}>About me</li>
+                    <li onClick={() => handleSection('about-me')}>About</li>
                     <li onClick={() => handleSection('blog')}>Blog</li>
                     {/*<li onClick={handleSection('projects')}>Projects</li> */}
                 </ul>
